@@ -126,7 +126,7 @@ class View():
         input("\nPressione ENTER para continuar...")
     
     def limpa_tela(self):
-        os.system("clear") 
+        os.system("cls" if os.name == "nt" else "clear")
 
     def exibe(self, objeto):
         print(objeto)
@@ -152,7 +152,7 @@ class View():
         print("-" * 55)
 
     def exibe_mensagem_aviso_itens_carrinho(self):
-        print("\n /!\  AVISO  /!\ ")
+        print("\n /!\\  AVISO  /!\\ ")
         print("-" * 55)
         print("Você tem itens adicionados no carrinho!")
         print("Trocar a loja vai esvaziar os seus itens salvos.\n")
