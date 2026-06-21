@@ -48,7 +48,7 @@ class Controller():
                 self.tela_cliente_menu()
                 self.__view.exibe_pausa()
                 self.__login.deslogar_usuario()
-                break
+                return
             self.__view.exibe_login_falhou()
             self.__view.exibe_pausa()
             break
