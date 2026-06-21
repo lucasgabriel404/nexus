@@ -1,115 +1,328 @@
 {
-    "produtos": [
+    "usuarios": [
         {
-            "id": 1,
-            "nome": "pedras",
-            "valor": 4
+            "usuario": "lucas123",
+            "senha": "lucas123",
+            "tipo": "CPF",
+            "nome": "Lucas Gabriel dos Santos",
+            "endereco": "Rua das Arara, 123",
+            "documento": "123.456.745-90"
         },
         {
-            "id": 2,
-            "nome": "tijolo",
-            "valor": 3
+            "usuario": "messi123",
+            "senha": "messi123",
+            "tipo": "CNPJ",
+            "nome": "MESSI GOLS LTDA",
+            "endereco": "Copa do Mundo,2026",
+            "documento": "12.145.745/1254-85"
         },
         {
-            "id": 3,
-            "nome": "madeiras",
-            "valor": 25
+            "usuario": "goku999",
+            "senha": "goku999",
+            "tipo": "CPF",
+            "nome": "Goku da Silva",
+            "endereco": "Rua do ShengLong, 2",
+            "documento": "145.457.963-85"
         },
         {
-            "id": 4,
-            "nome": "Cimento",
-            "valor": 85.0
+            "usuario": "williambo",
+            "senha": "williambo",
+            "tipo": "CPF",
+            "nome": "William Bonner",
+            "endereco": "Rua da Globo, 1839",
+            "documento": "854.523.647-87"
         },
         {
-            "id": 5,
-            "nome": "Areia Fina",
-            "valor": 21.0
+            "usuario": "jura",
+            "senha": "jura",
+            "tipo": "CNPJ",
+            "nome": "Jurassic Park Ltda",
+            "endereco": "Rua dos Dino, 445",
+            "documento": "41.245.645/7845-54"
+        },
+        {
+            "usuario": "robinh",
+            "senha": "robinh",
+            "tipo": "CPF",
+            "nome": "Robin Hood",
+            "endereco": "Floresta, 98",
+            "documento": "444.456.654-12"
+        },
+        {
+            "usuario": "Massey Fergusson Unlimited",
+            "senha": "123",
+            "tipo": "CNPJ",
+            "nome": "Massey Fergusson Unlimited",
+            "endereco": "Rua das Nave, 336",
+            "documento": "99.999.999/7412-96"
         }
     ],
+    "produtos": [],
     "pedidos": [
         {
             "id": 1,
-            "total": 54,
+            "total": 6999.929999999999,
             "cliente": {
-                "tipo": "CPF",
-                "nome": "Lucas Gabriel dos Santos",
-                "endereco": "Rua das Acacias, 3241",
-                "documento": "032.023.031-10"
+                "usuario": "jura",
+                "senha": "jura",
+                "tipo": "CNPJ",
+                "nome": "Jurassic Park Ltda",
+                "endereco": "Rua dos Dino, 445",
+                "documento": "41.245.645/7845-54"
+            },
+            "loja": {
+                "id": 3,
+                "nome": "Loja de Maquinario"
             },
             "produtos": [
                 {
-                    "id": 3,
-                    "nome": "madeiras",
-                    "valor": 25
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
                 },
                 {
-                    "id": 1,
-                    "nome": "pedras",
-                    "valor": 4
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
                 },
                 {
-                    "id": 3,
-                    "nome": "madeiras",
-                    "valor": 25
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                },
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                },
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                },
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                },
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
                 }
             ]
         },
         {
             "id": 2,
-            "total": 140.0,
+            "total": 1.99,
             "cliente": {
-                "tipo": "CNPJ",
-                "nome": "Padaria Ltda",
-                "endereco": "Rua das Padarias, 150",
-                "documento": "12.032.423/0001-25"
+                "usuario": "robinh",
+                "senha": "robinh",
+                "tipo": "CPF",
+                "nome": "Robin Hood",
+                "endereco": "Floresta, 98",
+                "documento": "444.456.654-12"
+            },
+            "loja": {
+                "id": 4,
+                "nome": "Loja do Maradona"
             },
             "produtos": [
                 {
-                    "id": 1,
-                    "nome": "pedras",
-                    "valor": 4
-                },
-                {
-                    "id": 2,
-                    "nome": "tijolo",
-                    "valor": 3
-                },
-                {
-                    "id": 3,
-                    "nome": "madeiras",
-                    "valor": 25
-                },
-                {
-                    "id": 4,
-                    "nome": "Cimento",
-                    "valor": 85.0
-                },
-                {
-                    "id": 5,
-                    "nome": "Areia Fina",
-                    "valor": 23.0
+                    "id": 8,
+                    "nome": "Gesso",
+                    "valor": 1.99
                 }
             ]
         },
         {
             "id": 3,
-            "total": 29,
+            "total": 195.0,
             "cliente": {
-                "tipo": "CPF",
-                "nome": "Lionel Messi",
-                "endereco": "Rua da Copa, 2026",
-                "documento": "320.031.928-21"
+                "usuario": "Massey Fergusson Unlimited",
+                "senha": "123",
+                "tipo": "CNPJ",
+                "nome": "Massey Fergusson Unlimited",
+                "endereco": "Rua das Nave, 336",
+                "documento": "99.999.999/7412-96"
+            },
+            "loja": {
+                "id": 2,
+                "nome": "Loja de Cimento"
             },
             "produtos": [
                 {
                     "id": 3,
-                    "nome": "madeiras",
-                    "valor": 25
+                    "nome": "Cimento Ruim",
+                    "valor": 65.0
                 },
                 {
+                    "id": 3,
+                    "nome": "Cimento Ruim",
+                    "valor": 65.0
+                },
+                {
+                    "id": 3,
+                    "nome": "Cimento Ruim",
+                    "valor": 65.0
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "total": 3259.59,
+            "cliente": {
+                "usuario": "lucas123",
+                "senha": "lucas123",
+                "tipo": "CPF",
+                "nome": "Lucas Gabriel dos Santos",
+                "endereco": "Rua das Arara, 123",
+                "documento": "123.456.745-90"
+            },
+            "loja": {
+                "id": 3,
+                "nome": "Loja de Maquinario"
+            },
+            "produtos": [
+                {
+                    "id": 17,
+                    "nome": "Moto Serra",
+                    "valor": 3259.59
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "total": 2999.9700000000003,
+            "cliente": {
+                "usuario": "lucas123",
+                "senha": "lucas123",
+                "tipo": "CPF",
+                "nome": "Lucas Gabriel dos Santos",
+                "endereco": "Rua das Arara, 123",
+                "documento": "123.456.745-90"
+            },
+            "loja": {
+                "id": 3,
+                "nome": "Loja de Maquinario"
+            },
+            "produtos": [
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                },
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                },
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                }
+            ]
+        }
+    ],
+    "lojas": [
+        {
+            "id": 2,
+            "nome": "Loja de Cimento",
+            "produtos": [
+                {
                     "id": 1,
-                    "nome": "pedras",
-                    "valor": 4
+                    "nome": "Votorantin",
+                    "valor": 120.0
+                },
+                {
+                    "id": 3,
+                    "nome": "Cimento Ruim",
+                    "valor": 65.0
+                },
+                {
+                    "id": 4,
+                    "nome": "Brita",
+                    "valor": 50.0
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Loja de Maquinario",
+            "produtos": [
+                {
+                    "id": 5,
+                    "nome": "Maquina de Corta Grama",
+                    "valor": 380.0
+                },
+                {
+                    "id": 6,
+                    "nome": "Furadeira",
+                    "valor": 180.0
+                },
+                {
+                    "id": 7,
+                    "nome": "Makitaaaaaaaa",
+                    "valor": 999.99
+                },
+                {
+                    "id": 17,
+                    "nome": "Moto Serra",
+                    "valor": 3259.59
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nome": "Loja do Maradona",
+            "produtos": [
+                {
+                    "id": 8,
+                    "nome": "Gesso",
+                    "valor": 1.99
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "nome": "Auto Peça Especializada em Kwid",
+            "produtos": [
+                {
+                    "id": 29,
+                    "nome": "3 Parafuso pra Roda",
+                    "valor": 9.0
+                },
+                {
+                    "id": 30,
+                    "nome": "Antena 2 metros e meio",
+                    "valor": 15.0
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "nome": "Ferragem Santos y Santos",
+            "produtos": [
+                {
+                    "id": 31,
+                    "nome": "Vergalhao",
+                    "valor": 40.0
+                },
+                {
+                    "id": 32,
+                    "nome": "Pregos",
+                    "valor": 2.0
+                },
+                {
+                    "id": 33,
+                    "nome": "Parafusos",
+                    "valor": 3.0
+                },
+                {
+                    "id": 34,
+                    "nome": "Corrente",
+                    "valor": 15.0
                 }
             ]
         }
