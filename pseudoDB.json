@@ -49,10 +49,10 @@
             "documento": "444.456.654-12"
         },
         {
-            "usuario": "Massey Fergusson Unlimited",
+            "usuario": "Massey Fergusson",
             "senha": "123",
             "tipo": "CNPJ",
-            "nome": "Massey Fergusson Unlimited",
+            "nome": "Massey Fergusson",
             "endereco": "Rua das Nave, 336",
             "documento": "99.999.999/7412-96"
         }
@@ -223,6 +223,44 @@
                     "valor": 999.99
                 }
             ]
+        },
+        {
+            "id": 6,
+            "total": 355.0,
+            "cliente": {
+                "usuario": "lucas123",
+                "senha": "lucas123",
+                "tipo": "CPF",
+                "nome": "Lucas Gabriel dos Santos",
+                "endereco": "Rua das Arara, 123",
+                "documento": "123.456.745-90"
+            },
+            "loja": {
+                "id": 2,
+                "nome": "Loja de Cimento"
+            },
+            "produtos": [
+                {
+                    "id": 1,
+                    "nome": "Votorantin",
+                    "valor": 120.0
+                },
+                {
+                    "id": 3,
+                    "nome": "Cimento Ruim",
+                    "valor": 65.0
+                },
+                {
+                    "id": 4,
+                    "nome": "Brita",
+                    "valor": 50.0
+                },
+                {
+                    "id": 1,
+                    "nome": "Votorantin",
+                    "valor": 120.0
+                }
+            ]
         }
     ],
     "lojas": [
@@ -270,6 +308,11 @@
                     "id": 17,
                     "nome": "Moto Serra",
                     "valor": 3259.59
+                },
+                {
+                    "id": 50,
+                    "nome": "Furadeira ",
+                    "valor": 599.0
                 }
             ]
         },
@@ -325,6 +368,11 @@
                     "valor": 15.0
                 }
             ]
+        },
+        {
+            "id": 15,
+            "nome": "Leroy Merlin SA",
+            "produtos": []
         }
     ]
 }
